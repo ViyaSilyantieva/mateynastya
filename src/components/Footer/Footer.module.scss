@@ -1,0 +1,62 @@
+.footer {
+    background-color: #dbd9d9;
+    padding: 10px;
+    margin: 0 auto;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+.section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+@media (max-width:764px) {
+    .section {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+.social__section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.icon__inst,
+.icon__tel,
+.icon__mail {
+    width: 35px;
+    height: 35px;
+    display: block;
+    margin: 10px 0;
+}
+.icon__inst:hover {
+    background-color: purple;
+    transition: background-color 1s;
+    border-radius: 50%;
+}
+.icon__tel:hover {
+    background-color: rgb(61, 153, 206);
+    transition: background-color 1s;
+    border-radius: 50%;
+}
+.icon__mail:hover {
+    background-color: rgb(177, 3, 3);
+    transition: background-color 1s;
+    border-radius: 50%;
+}
+.icon__title {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 18px;
+    letter-spacing: 1px;
+    margin: 10px 0;
+}
+.icon__text {
+    font-family: 'Nunito'; 
+    font-size: 16px;
+    color: black;
+    margin-top: 5px;
+    &:hover {
+        text-decoration: underline;
+    }
+}
