@@ -1,0 +1,16 @@
+.button__contact {
+    font-family: 'Nunito'; 
+    font-size: 16px;
+    border: none;
+    background-color: white;
+    cursor: pointer;
+    &:hover {
+        text-decoration: underline;
+    }
+}
+@media (max-width: 400px) {
+    .button__contact {
+        font-size: 12px;
+    }
+}
+
